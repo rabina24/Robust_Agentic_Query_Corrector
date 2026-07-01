@@ -1,7 +1,7 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import os
-os.environ["HF_TOKEN"] = "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"
+
 MODEL_NAME = "meta-llama/Meta-Llama-3.1-8B-Instruct"
 
 class LocalLLM:

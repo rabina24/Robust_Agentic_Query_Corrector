@@ -3,7 +3,6 @@ import json
 import os
 from agentic_query_corrector.agents.prompts import PROMPTS
 
-os.environ["GROQ_API_KEY"] = "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"
 
 class DetectorAgent:
 
